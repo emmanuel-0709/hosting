@@ -1,0 +1,99 @@
+
+#forma_{
+    background: #343A40;
+    margin-top: 6%;
+    margin-left: 28%;
+    width: 50%;
+    height: 30%;
+}
+
+
+p{
+    font-size: 125%;
+}
+
+#cuerpo{
+    margin: 0;
+    min-height: 120vh;
+    background-image: url(Imagenes/oso\ polar.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#cuerpo::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: 120vh;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #7D96AE, #090E13);
+    opacity: 0.7;
+    z-index: -1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#titulo_{
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 190%;
+}
+
+
+#menu{
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: #343A40;
+    top: 0;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    transition: 0.30s;
+}
+
+#menu ul li a:hover{
+    background-color: #42b881;
+    font-size: 120%;
+}
+
+.item-r{
+    float: right;
+}
+#cuerpo::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    min-height: 120vh;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: -1;
+  }
