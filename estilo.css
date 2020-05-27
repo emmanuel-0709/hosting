@@ -3,6 +3,13 @@
     background: #000000;
 }
 
+#cris_{
+    color: white;
+    width: 35%;
+    margin-top: 2%;
+    margin-left: 22%;
+}
+
 #links_:hover{
     text-decoration: none;
 }
@@ -88,6 +95,12 @@ li{
     color: white;
 }
 
+
+#link:hover{
+    font-size: 140%;
+    color: white;
+}
+
 #contenedor_slide{
     padding: 0;
     position: absolute;
@@ -111,9 +124,3 @@ a{
     font-size: 120%;
 }
 
-
-#link:hover{
-    text-decoration: none;
-    color: black;
-    font-size: 150%;
-}
